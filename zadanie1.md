@@ -12,5 +12,11 @@ Odnajdujemy plik z logami i wchodzimy w niego <br />
   cat log_20.11.2021.log <br /><br />
 d. sprawdzenia, ile warstw posiada zbudowany obraz <br />
   docker image inspect projectphp | jq ".[] .RootFS" <br /><br />
-  
+Zadanie 4 <br />
+Jak przenieść stworzony obraz na swoje konto na DockerHub? <br />
+Aby przenieść obraz na swoje konto na DockerHub należy: <br />
+ - Utworzyć repozytorium na DockerHub <br />
+ - Nazwać obraz tak jak repozytorium <br />
+ - Dokonać commita istniejącego kontenera do repozytorium <br />
+ - Wykonać push (przesłanie obrazu do repozytorium) <br /><br />
 W pliku pdf są dołączone zrzuty ekranów potwierdzające wykonane działania.
